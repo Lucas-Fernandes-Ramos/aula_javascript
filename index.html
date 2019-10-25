@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso de JavaScript</title>
+    <script src="js/eventos.js"></script> 
+</head>
+
+
+<body onload="load()">
+
+        <h1>Curso introdução ao JavaScript</h1>
+  
+  
+        <button onclick="clicou()">Clique em mim</button>
+        <h3 id="agradecimentos">Agradecimentos</h3>
+        <h3  onclick="redirecionar()">Redirecionar</h3>
+        <h3 id="mousemove" onmousemove="trocar(this)" onmouseout="voltar(this)" >passe o mouse sobre mim</h3>
+        <h3 id="mousemove2" onmousemove="trocar(this)" onmouseout="voltar(this)" >passe o mouse sobre mim</h3>
+     <select onchange="funcaoChange(this)" name="" id="">
+      <option value="1">valor 1 </option>
+      <option value="2">valor 2 </option>
+      <option value="3">valor 3 </option>
+
+     </select>
+</body>
+</html>
